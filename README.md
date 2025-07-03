@@ -74,3 +74,13 @@ The `public-ssh` directory contains a Dockerfile and Docker Compose setup for a 
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+### Tools
+
+The `tools` directory contains a collection of utilities for managing the homelab environment, primarily for Windows systems.
+
+**Contents:**
+
+*   `homelabs.bat`: A batch script for managing various homelab tasks.
+
+*   `pkill.bat`: A batch script for terminating processes.
