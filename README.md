@@ -51,7 +51,6 @@ The `public-ssh` directory contains a Dockerfile and Docker Compose setup for a 
 
 *   SSH server based on Ubuntu
 *   Root access enabled
-*   Includes `tigervnc`
 
 **Usage:**
 
