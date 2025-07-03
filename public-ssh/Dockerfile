@@ -2,7 +2,7 @@ FROM ubuntu:latest
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Install SSH server
-RUN apt-get update && apt-get install -y openssh-server tigervnc
+RUN apt-get update && apt-get install -y openssh-server 
 
 # Configure SSH
 RUN mkdir /var/run/sshd
