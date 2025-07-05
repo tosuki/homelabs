@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  ssh:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "22"
+    # Resource limits
+    mem_limit: 2048m
+    cpus: 0.5
