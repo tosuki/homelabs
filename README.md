@@ -71,6 +71,32 @@ The `public-ssh` directory contains a Dockerfile and Docker Compose setup for a 
     *   **Username:** `root`
     *   **Password:** `public`
 
+### Jellyfin Media Server
+
+The `jellyfin` directory contains a Docker Compose setup for Jellyfin, a free software media system that gives you total control over your media.
+
+**Features:**
+
+*   Jellyfin media server container
+*   Web interface for media management and streaming
+
+**Usage:**
+
+1.  Navigate to the `jellyfin` directory:
+    ```bash
+    cd jellyfin
+    ```
+2.  Start the service:
+    ```bash
+    docker-compose up -d
+    ```
+
+**Access Credentials:**
+
+*   **Jellyfin Web UI:**
+    *   **URL:** [http://localhost:8096](http://localhost:8096) (default port, check `docker-compose.yml` for actual mapped port)
+    *   Follow the on-screen instructions for initial setup, including creating an admin user.
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
